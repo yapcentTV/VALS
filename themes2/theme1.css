@@ -17,7 +17,7 @@ body{
 	left: 340;
     width: 50%;
 	height: 15%;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0.1, 0.2, 0.3, 0.8);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -37,7 +37,7 @@ p{
 	left: 330;
     width: 50%;
 	height: 15%;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0.1, 0.2, 0.3, 0.6);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -53,7 +53,7 @@ p{
 	left: 330;
     width: 50%;
 	height: 15%;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0.1, 0.2, 0.3, 0.6);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -68,7 +68,7 @@ p{
 	left: 330;
     width: 50%;
 	height: 3%;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0.1, 0.2, 0.3, 0.6);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -97,7 +97,7 @@ button{
 	left: 340;
     width: 50%;
 	height: 15%;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0.1, 0.2, 0.3, 0.6);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
