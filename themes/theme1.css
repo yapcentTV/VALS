@@ -13,7 +13,7 @@ body{
 	margin: 1px;
 	font-family: Ravie;
 	text-align: center;
-	text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+	text-shadow: 4px 4px 4px rgba(0,0,0,0.9);
 	font-size: 75pt;
 }
 
@@ -23,6 +23,57 @@ body{
 	font-family: Monotype Corsiva;
 	color: navy;
 	font-size: 18pt;
+}
+
+.spg{
+	font-family: Gill Sans MT;
+	font-size: 15pt;
+	text-shadow: 7px 8px 9px rgba(0, 0, 0, 0.8);
+	color: palegreen;
+	display: flex;
+	position: absolute;
+	top: 1;
+	left: 60;
+    width: 18%;
+	height: 5%;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.6);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.qpg{
+	font-family: Corbel;
+	font-size: 15pt;
+	text-shadow: 7px 8px 9px rgba(0,0,0,0.6);
+	color: cornsilk;
+	display: flex;
+	position: absolute;
+	top: 40;
+	left: 15;
+    width: 25%;
+	height: 13%;
+	background: rgba(0, 0, 0, 0.5);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.opg{
+	font-family: Corbel;
+	font-size: 15pt;
+	text-shadow: 7px 8px 9px rgba(0,0,0,0.5);
+	color: pink;
+	display: flex;
+	position: absolute;
+	top: 129;
+	left: 15;
+    width: 25%;
+	height: 5%;
+	background: rgba(0, 0, 0, 0.5);
+	flex-direction: column;
+	text-align: right;
 }
 
 p{
@@ -42,7 +93,7 @@ hr{
 .rpg{
 	font-family: Lucida Calligraphy;
 	font-size: 40pt;
-	text-shadow: 7px 8px 9px rgba(0,0,0,0.8);
+	text-shadow: 7px 8px 9px rgba(0,0,0,0.7);
 	color: khaki;
 	display: flex;
 	position: absolute;
@@ -51,7 +102,7 @@ hr{
     width: 45%;
 	height: 20%;
 	border-radius: 15px;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -60,6 +111,7 @@ hr{
 .wall{
 	font-family: Rockwell;
 	font-size: 15pt;
+	text-shadow: 7px 8px 9px rgba(0,0,0,0.7);
 	color: ghostwhite;
 	display: flex;
 	position: absolute;
@@ -67,7 +119,8 @@ hr{
 	left: 380;
     width: 45%;
 	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	border-radius: 50px 50px 15px 15px;
+	background: rgba(0, 0, 0, 0.6);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -80,14 +133,68 @@ a{
 
 button{
 	background-color: beige;
-	border-radius: 20px;
+	border-radius: 50px 50px 15px 15px;
 	color: seagreen;
 	text-decoration: none;
-	font-family: Candara;
+	font-family: Rockwell;
 	font-weight: bold;
 	font-size: 18pt;
-	width: 110px;
+	width: 120px;
 	height:40px;
+}
+
+.log1{
+	font-family: Gill Sans MT;
+	color: palegreen;
+	font-size: 18pt;
+	text-shadow: 7px 8px 9px rgba(0,0,0,0.8);
+	display: flex;
+	position: absolute;
+	top: 1;
+	left: 1025;
+	width: 23%;
+	height: 15%;
+	border-radius: 15px 50px 30px;
+	background: rgba(0, 0, 0, 0.6);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.vpg{
+	font-family: Ink Free;
+	color: orange;
+	font-size: 18pt;
+	text-shadow: 7px 8px 9px rgba(0,0,0,0.8);
+	display: flex;
+	position: absolute;
+	top: 130;
+	left: 1025;
+	width: 23%;
+	height: 10%;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.6);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.ypg{
+	font-family: MV Boli;
+	font-size: 13pt;
+	text-shadow: 7px 8px 9px rgba(0,0,0,0.6);
+	color: mistyrose;
+	display: flex;
+	position: absolute;
+	top: 215;
+	left: 1025;
+    width: 23%;
+	height: 50%;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.6);
+	flex-direction: column-reverse;
+	text-align: auto;
+	justify-content: center;
 }
 
 .on{
@@ -99,15 +206,16 @@ button{
 	left: 295;
     width: 45%;
 	height: 15%;
-	background: rgba(0, 0, 0, 0.4);
+	border-radius: 15px 15px 50px 50px;
+	background: rgba(0, 0, 0, 0.6 );
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
 h3{
-	font-family: Candara;
-	font-size: 15pt;
+	font-family: HoloLens MDL2 Assets;
+	font-size: 12pt;
 	color: ivory;
 }
 
@@ -118,7 +226,7 @@ h3{
 	left: 0;
     width: 100%;
 	height: 5%;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: black;
 	align-items: center;
 	justify-content: center;
 }
