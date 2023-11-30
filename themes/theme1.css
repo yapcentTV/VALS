@@ -13,7 +13,7 @@ body {
 	   left: 0;
 	   width: 100%;
 	   height: 10%;
-	   display: inline-block;
+	   display: block;
 	   position: absolute;
 	   flex-direction: column;
 	   justify-content: left;
@@ -21,7 +21,7 @@ body {
 	   font-weight: bold;
 	   text-align: left;
 	   background-color: rgba(255,255,255,0.8);
-	   text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+	   text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 	   font-size: 30pt;
 }
 
@@ -55,19 +55,19 @@ hr {
 
 .rpg {
    font-family: Lucida Calligraphy;
-   font-size: 25pt;
+   font-size: 27pt;
    font-weight: bold;
-   text-shadow: 7px 8px 9px rgba(0,0,0,0.9);
-   color: orange;
+   text-shadow: 7px 8px 9px rgba(0,0,0,0.5);
+   color: maroon;
    display: flex;
    position: absolute;
    z-index: 1;
    top: 150;
    left: 100;
-	   width: 30%;
+	width: 30%;
    height: 15%;
-   border-radius: 15px 50px 30px;
-   background-color: rgba(218, 205, 213, 0.397);
+   border-radius: 15px 50px 15px 50px;
+   background-color: cornsilk;
    flex-direction: column;
    justify-content: center;
 }
@@ -76,17 +76,17 @@ hr {
    font-family: Rockwell;
    font-size: 13pt;
    font-weight: bold;
-   text-shadow: 7px 8px 9px rgba(24, 2, 2, 0.9);
-   color: yellow;
+   text-shadow: 7px 8px 9px rgba(24, 2, 2, 0.5);
+   color: darkgreen;
    display: flex;
    position: absolute;
    z-index: 1;
    top: 320;
    left: 100;
-   width: 30%;
+	width: 30%;
    height: 15%;
    border-radius: 50px 50px 15px 15px;
-   background-color: rgba(218, 205, 213, 0.397);
+   background-color: cornsilk;
    flex-direction: column;
    justify-content: center;
 }
@@ -97,19 +97,36 @@ a {
 }
 
 .pic {
-   display: block;
+   display: inline-flex;
    width: 500px;
    height: 450px;
    border-radius: 20px;
    margin-top: 90;
    margin-left: 50;
-   opacity: 0.7;
+   opacity: 75%;
    z-index: -1;
 }
 
 #pic1 {
+   background-image: url(../Hip/gr.jpg);
+   background-repeat: no-repeat;
+}
+
+.pag {
+   display: inline-flex;
+   width: 450px;
+   height: 375px;
+   border-radius: 40px;
+   top: -63;
+   left: 245;
+   opacity: 75%;
+   z-index: -1;
+}
+
+#pag1 {
    background-image: url(../Hip/pex.jpg);
    background-repeat: no-repeat;
+   position: relative;
 }
 
 .log1 {
@@ -151,9 +168,9 @@ a {
    font-family: Ink Free;
    font-size: 30pt;
    font-weight: bold;
-   top: 150;
-   left: 800;
-   width: 35%;
+   top: 180;
+   left: 830;
+   width: 30%;
    height: 15%;
    border-radius: 15px 50px 30px 5px;
    text-shadow: 7px 8px 9px rgba(0,0,0,0.9);
@@ -172,9 +189,9 @@ a {
    font-family: Ink Free;
    font-size: 18pt;
    font-weight: bold;
-   top: 280;
-   left: 800;
-   width: 35%;
+   top: 310;
+   left: 830;
+   width: 30%;
    height: 25%;
    border-radius: 15px 50px 30px 5px;
    text-shadow: 7px 8px 9px rgba(0,0,0,0.9);
@@ -210,7 +227,7 @@ button {
    width: 30%;
    height: 15%;
    border-radius: 15px 15px 50px 50px;
-   background-color: rgba(241, 234, 239, 0.397);
+   background-color: cornsilk;
    flex-direction: column;
    justify-content: center;
 }
