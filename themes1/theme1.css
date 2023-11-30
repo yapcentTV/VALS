@@ -1,112 +1,161 @@
-body{
-	 background-image: url(../Hip/45.jpg);
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 background-size: 100%;
-	 background-attachment: fixed;
+body {
+	background-image: url(../Hip/45.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
 }
 
-#mytitle{
-	font-family: Rockwell;
-	color: goldenrod;
-	font-size: 45pt;
-	text-shadow: 9px 8px 9px rgba(0,0,0,0.8);
-	display: flex;
-	position: absolute;
-	top: 40;
-	left: 340;
-        width: 50%;
-	height: 15%;
-	background: rgba(0.1, 0.2, 0.3, 0.8);
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+#UniInput {
+	   height: 8vh;
+	   width: 20vw;
 }
 
-p{
-	margin: 10px;
+#mytitle {
+	   font-family: Rockwell;
+	   color: goldenrod;
+	   font-size: 45pt;
+	   text-shadow: 9px 8px 9px rgba(0,0,0,0.9);
+	   display: flex;
+	   position: absolute;
+	   top: 40px;
+	   left: 340px;
+	   width: 50%;
+	   height: 15%;
+	   background: rgba(0.1, 0.2, 0.3, 0.8);
+	   flex-direction: column;
+	   align-items: center;
+	   justify-content: center;
 }
 
-.log{
-	font-family: Verdana, sans-serif;
-	color: navajowhite;
-	font-size: 18pt;
-	display: flex;
-	position: absolute;
-	top: 198;
-	left: 330;
-        width: 50%;
-	height: 15%;
-	background: rgba(0.1, 0.2, 0.3, 0.6);
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+p {
+   margin: 10px;
 }
 
-.log1{
-	font-family: Verdana, sans-serif;
-	color: springgreen;
-	font-size: 18pt;
-	display: flex;
-	position: absolute;
-	top: 300;
-	left: 330;
-        width: 50%;
-	height: 15%;
-	background: rgba(0.1, 0.2, 0.3, 0.6);
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.log {
+   font-family: Verdana, sans-serif;
+   color: navajowhite;
+   font-size: 18pt;
+   display: flex;
+   position: absolute;
+   top: 198px;
+   left: 330px;
+	width: 50%;
+   height: 15%;
+   background: rgba(0.1, 0.2, 0.3, 0.6);
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
-.log2{
-	font-family: Verdana, sans-serif;
-	color: aqua;
-	font-size: 18pt;
-	display: flex;
-	position: absolute;
-	top: 402;
-	left: 330;
-        width: 50%;
-	height: 15%;
-	background: rgba(0.1, 0.2, 0.3, 0.6);
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.log1 {
+   font-family: Verdana, sans-serif;
+   color: springgreen;
+   font-size: 18pt;
+   display: flex;
+   position: absolute;
+   top: 300px;
+   left: 330px;
+   width: 50%;
+   height: 15%;
+   background:rgba(0.1, 0.2, 0.3, 0.6);
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
-a{
-	color: black;
+.log2 {
+   font-family: Verdana, sans-serif;
+   color: aqua;
+   font-size: 18pt;
+   display: flex;
+   position: absolute;
+   top: 402px;
+   left: 330px;
+   width: 50%;
+   height: 15%;
+   background: rgba(0.1, 0.2, 0.3, 0.6);
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
-.abc{
-	margin: 1px;
-	font-family: Bahnschrift SemiBold;
-	color: black;
-	font-size: 14pt;
+a {
+   color: black;
 }
 
-button{
-	background-color: whitesmoke;
-	border-radius: 30px;
-	color: teal;
-	text-decoration: none;
-	font-family: High Tower Text;
-	font-weight: bold;
-	font-size: 15pt;
-	width: 90px;
-	height:40px;
+.abc {
+   margin: 1px;
+   font-family: Bahnschrift SemiBold;
+   color: black;
+   font-size: 14pt;
 }
 
-.on{
-	display: flex;
-	position: absolute;
-	top: 514;
-	left: 340;
-        width: 50%;
-	height: 15%;
-	background: rgba(0.1, 0.2, 0.3, 0.6);
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+button {
+	   background-color: whitesmoke;
+	   border-radius: 30px;
+	   color: teal;
+	   text-decoration: none;
+	   font-family: High Tower Text;
+	   font-weight: bold;
+	   font-size: 15pt;
+	   width: 8vw;
+	   height:6vh ;
+}
+
+.on {
+   display: flex;
+   position: absolute;
+   top: 514px;
+   left: 340px;
+   width: 50%;
+   height: 15%;
+   background: rgba(0.1, 0.2, 0.3, 0.6);
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.AccountCreateID[type=number] {
+			   border: 10px solid #aaa;
+			   border-radius: 4px;
+			   outline: none;
+			   box-sizing: border-box;
+			   transition: 3s;
+			   text-align: center;
+}
+
+.AccountCreateID[type=number]:focus {
+				   border-color: crimson;
+				   box-shadow: 0 0 10px 0 crimson;
+}
+
+.AccountCreateName[type=text] {
+			   border: 10px solid #aaa;
+			   border-radius: 4px;
+			   outline: none;
+			   padding: 20px;
+			   box-sizing: border-box;
+			   transition:3s;
+			   text-align: center;
+}
+
+.AccountCreateName[type=text]:focus {
+				   border-color: cadetblue;
+				   box-shadow: 0 0 10px 0 cadetblue;
+}
+
+.AccountCreatePass[type=password] {
+				   border: 10px solid #aaa;
+				   border-radius: 4px;
+				   outline: none;
+				   padding: 20px;
+				   box-sizing: border-box;
+				   transition:3s;
+				   text-align: center;
+}
+
+.AccountCreatePass[type=password]:focus {
+					   border-color: forestgreen;
+					   box-shadow: 0 0 10px 0 forestgreen;
 }
