@@ -28,7 +28,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 275;
-    width: 15%;
+        width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -44,7 +44,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 485;
-    width: 15%;
+        width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -60,7 +60,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 695;
-    width: 15%;
+        width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -76,7 +76,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 905;
-    width: 15%;
+        width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -92,7 +92,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 1115;
-    width: 15%;
+        width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
