@@ -158,7 +158,7 @@ a {
 }
  
 .HomeSearch[type=text]:focus {
-   border-color: cadetblue;
+   border-color: saddlebrown;
    box-shadow: 0 0 10px 0 cadetblue;
 }
 
