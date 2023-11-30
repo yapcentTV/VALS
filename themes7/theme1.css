@@ -17,7 +17,7 @@ body{
 	position: absolute;
 	top: 236;
 	left: 435;
-        width: 50%;
+  width: 50%;
 	height: 600%;
 	background: rgba(88, 62, 62, 0.7);
 	flex-direction: column;
@@ -29,14 +29,14 @@ body{
 	margin: 10px;
 	text-align: center;
 	font-family: Monotype Corsiva;
-        font-weight: 900;
+  font-weight: 900;
 	color: peachpuff;
 	font-size: 18pt;
 	display: flex;
 	position: absolute;
 	top: 344;
 	left: 435;
-        width: 50%;
+  width: 50%;
 	height: 300%;
 	background: rgba(0.1, 0.2, 0.3, 0.7);
 	flex-direction: column;
