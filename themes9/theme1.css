@@ -16,7 +16,7 @@ body{
 }
 
 .pot{
-    display: block;
+        display: block;
 	width: 280px;
 	height: 280px;
 	text-align: center;
@@ -35,7 +35,7 @@ body{
 	position: absolute;
 	top: 300;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -51,7 +51,7 @@ body{
 	position: absolute;
 	top: 330;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -68,7 +68,7 @@ body{
 	position: absolute;
 	top: 360;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -84,7 +84,7 @@ body{
 	position: absolute;
 	top: 390;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -101,7 +101,7 @@ body{
 	position: absolute;
 	top: 420;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -117,7 +117,7 @@ body{
 	position: absolute;
 	top: 450;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -134,7 +134,7 @@ body{
 	position: absolute;
 	top: 480;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -150,7 +150,7 @@ body{
 	position: absolute;
 	top: 510;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -167,7 +167,7 @@ body{
 	position: absolute;
 	top: 540;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
@@ -183,7 +183,7 @@ body{
 	position: absolute;
 	top: 570;
 	left: 600;
-    width: 25%;
+        width: 25%;
 	height: 10%;
 	background: rgba(0, 0, 0, 0.4);
 	justify-content: center;
