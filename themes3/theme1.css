@@ -17,15 +17,33 @@ body {
 	   font-size: 45pt;
 	   display: flex;
 	   position: absolute;
-	   top: 70;
-	   left: 340;
+	   margin-top: 30;
+	   transform: translate(50%,50%);
 	   width: 50%;
 	   height: 15%;
+           border-radius: 20px 20px 20px 20px;
 	   background: rgba(0.1, 0.2, 0.3, 0.8);
 	   flex-direction: column;
 	   align-items: center;
 	   justify-content: center;
 }
+
+.pic {
+	display: inline-block;
+	width: 50%;
+	height: 350px;
+	border-radius: 20px 20px 20px 20px;
+	margin-top: 30;
+	transform: translate(50%,50%);
+	opacity: 75%;
+	z-index: -1;
+ }
+ 
+ #pic1 {
+	background-image: url(../Hip/ds.jpg);
+	background-repeat: no-repeat;
+	position: fixed;
+ }
 
 p {
    margin: 10px;
@@ -37,11 +55,8 @@ p {
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 227;
-   left: 330;
-   width: 50%;
-   height: 15%;
-   background: rgba(0.1, 0.2, 0.3, 0.6);
+   top: 230px;
+   left: 540px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -53,11 +68,8 @@ p {
    font-size: 14pt;
    display: flex;
    position: absolute;
-   top: 329;
-   left: 330;
-   width: 50%;
-   height: 15%;
-   background: rgba(0.1, 0.2, 0.3, 0.6);
+   top: 329px;
+   left: 540px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -68,11 +80,8 @@ p {
    font-size: 15pt;
    display: flex;
    position: absolute;
-   top: 431;
-   left: 330;
-   width: 50%;
-   height: 3%;
-   background: rgba(0.1, 0.2, 0.3, 0.6);
+   top: 415px;
+   left: 580px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -98,11 +107,8 @@ button {
 .on {
    display: flex;
    position: absolute;
-   top: 461;
-   left: 340;
-   width: 50%;
-   height: 15%;
-   background: rgba(0.1, 0.2, 0.3, 0.6);
+   top: 460px;
+   left: 620px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -118,8 +124,8 @@ button {
 }
 
 .ForgotPassID[type=number]:focus {
-			   border-color: crimson;
-			   box-shadow: 0 0 10px 0 crimson;
+				   border-color: crimson;
+				   box-shadow: 0 0 10px 0 crimson;
 }
 
 .ForgotPassText[type=text] {
@@ -133,6 +139,6 @@ button {
 }
 	 
 .ForgotPassText[type=text]:focus {
-			   border-color: forestgreen;
-			   box-shadow: 0 0 10px 0 forestgreen;
+				   border-color: forestgreen;
+				   box-shadow: 0 0 10px 0 forestgreen;
 }
