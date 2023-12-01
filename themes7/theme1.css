@@ -10,7 +10,7 @@ body{
 #mytitle{
 	color: darkred;
 	font-family: Ravie;
-	text-shadow: 9px 9px 9px rgba(0,0,0,0.7);
+	text-shadow: 9px 9px 9px rgba(0,0,0,0.5);
 	font-size: 25pt;
 	display: block;
 	position: fixed;
