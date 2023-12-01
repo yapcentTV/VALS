@@ -4,19 +4,55 @@ body{
 	 background-position: center;
 	 background-size: 100%;
 	 background-attachment: fixed;
-	
 }
 
 #mytitle{
-	 background-position: center;
+	 top: 30px;
+	 margin-left: 475;
+	 position: relative;
 	 background-image: url(../Hip/32.png);
 	 background-repeat: no-repeat;
 	 background-size: 75%;
-
 }
 
+.pic {
+	display: inline-block;
+	width: 30%;
+	height: 380px;
+	border-radius: 20px 20px 20px 20px;
+	bottom: 50px;
+	left: 580px;
+	opacity: 75%;
+	align-items: center;
+	z-index: -1;
+ }
+ 
+ #pic1 {
+	background-image: url(../Hip/ds.jpg);
+	background-repeat: no-repeat;
+	position: fixed;
+ }
+
+ .pag {
+	display: flex;
+	width: 50%;
+	height: 655px;
+	border-radius: 20px 20px 20px 20px;
+	top: 20px;
+	left: 450px;
+	opacity: 50%;
+	align-items: center;
+	z-index: -2;
+ }
+ 
+ #pag1 {
+	background-image: url(../Hip/pex.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+ }
+
 .pot{
-        display: block;
+    display: inline-block;
 	width: 280px;
 	height: 280px;
 	text-align: center;
@@ -26,7 +62,6 @@ body{
 
 .urg{
 	margin: 10px;
-	text-align: center;
 	font-family: Century Gothic;
 	color: yellow;
 	font-size: 15pt;
@@ -34,10 +69,7 @@ body{
 	display: flex;
 	position: absolute;
 	top: 300;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 740;
 	justify-content: center;
 }
 
@@ -50,10 +82,7 @@ body{
 	display: flex;
 	position: absolute;
 	top: 330;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 640;
 	justify-content: center;
 }
 
@@ -63,14 +92,11 @@ body{
 	font-family: Century Gothic;
 	color: yellow;
 	font-size: 15pt;
-	font-weight: 700;
+	font-weight: bold;
 	display: flex;
 	position: absolute;
 	top: 360;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 730;
 	justify-content: center;
 }
 
@@ -83,10 +109,7 @@ body{
 	display: flex;
 	position: absolute;
 	top: 390;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 640;
 	justify-content: center;
 }
 
@@ -100,10 +123,8 @@ body{
 	display: flex;
 	position: absolute;
 	top: 420;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 745;
+	align-content: center;
 	justify-content: center;
 }
 
@@ -116,10 +137,7 @@ body{
 	display: flex;
 	position: absolute;
 	top: 450;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 740;
 	justify-content: center;
 }
 
@@ -133,10 +151,7 @@ body{
 	display: flex;
 	position: absolute;
 	top: 480;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 730;
 	justify-content: center;
 }
 
@@ -149,10 +164,7 @@ body{
 	display: flex;
 	position: absolute;
 	top: 510;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 725;
 	justify-content: center;
 }
 
@@ -166,10 +178,7 @@ body{
 	display: flex;
 	position: absolute;
 	top: 540;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 710;
 	justify-content: center;
 }
 
@@ -182,10 +191,7 @@ body{
 	display: flex;
 	position: absolute;
 	top: 570;
-	left: 600;
-        width: 25%;
-	height: 10%;
-	background: rgba(0, 0, 0, 0.4);
+	left: 670;
 	justify-content: center;
 }
 
