@@ -190,8 +190,8 @@ body{
 	font-size: 15pt;
 	display: flex;
 	position: absolute;
-	top: 570;
-	left: 670;
+	top: 570px;
+	left: 675px;
 	justify-content: center;
 }
 
