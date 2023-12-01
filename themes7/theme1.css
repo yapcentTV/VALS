@@ -4,7 +4,7 @@ body{
 	 background-position: center;
 	 background-size: 100%;
 	 background-attachment: fixed;
-	
+         overflow-y: scroll;
 }
 
 #mytitle{
@@ -27,46 +27,42 @@ body{
 	margin: 0px;
 	text-align: center;
 	font-family: Monotype Corsiva;
-        font-weight: 900;
+  font-weight: 900;
 	color: darkgoldenrod;
 	font-size: 17pt;
 	display: block;
 	position: fixed;
 	top: 48px;
 	left: 15%;
-        width: 85vw;
+  width: 85vw;
 	height: 4vh;
-        background-color: rgba(0.1,0.2,0.3,0.6);
+  background-color: rgba(0.1,0.2,0.3,0.6);
 	flex-direction: column;
 	justify-content: center;
 }
 
 .alt {
-        display: flex;
-        object-fit: cover;
-	width: 30vh;
-	height: 15vw;
-	border-radius: 20px;
-	top: 130px;
-	left: 300px;
-	z-index: 2;
- }
- 
- #alt1 {
-	background-image: url(../Hop/.png);
-	background-repeat: no-repeat;
-	position: absolute;
+  font-family: Stencil;
+  color: gold;
+	font-size: 30pt;
+	display: block;
+	position: fixed;
+	bottom: 5%;
+	left: 3%;
+	flex-direction: row;
+  text-align: center;
+  z-index: 1;
  }
 
 .cover {
-        display: inline-block;
-        object-fit: cover;
+  display: inline-block;
+  object-fit: cover;
 	width: 145vh;
 	height: 35vw;
 	border-radius: 20px;
 	top: 130px;
 	left: 300px;
-        opacity: 75%;
+  opacity: 75%;
 	z-index: -1;
  }
  
@@ -77,8 +73,8 @@ body{
  }
 
 .img {
-        display: inline-block;
-        object-fit: cover;
+  display: inline-block;
+  object-fit: cover;
 	width: 38vh;
 	height: 26vw;
 	border-radius: 20px;
@@ -98,13 +94,13 @@ body{
   display: flex;
   position: absolute;
   text-align: center;
-  top: 530px;
-  left: 345px;
+	top: 530px;
+	left: 345px;
  }
 
  .pag {
-        display: inline-block;
-        object-fit: fill;
+  display: inline-block;
+  object-fit: fill;
 	width: 38vh;
 	height: 26vw;
 	border-radius: 20px;
@@ -124,8 +120,8 @@ body{
   display: flex;
   position: absolute;
   text-align: center;
-  top: 530px;
-  left: 677px;
+	top: 530px;
+	left: 677px;
  }
 
  .how {
@@ -133,10 +129,10 @@ body{
   object-fit: fill;
   border-radius: 20px;
   width: 38vh;
-  height: 26vw;
-  top: 170px;
-  right: 120px;
-  z-index: 1;
+	height: 26vw;
+	top: 170px;
+	right: 120px;
+	z-index: 1;
  }
  
  #how1 {
@@ -150,8 +146,8 @@ body{
   display: flex;
   position: absolute;
   text-align: center;
-  top: 530px;
-  left: 950px;
+	top: 530px;
+	left: 950px;
  }
 
 *{
