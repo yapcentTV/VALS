@@ -33,7 +33,7 @@ body {
 .urg {
    margin: 10px;
    position: absolute;
-   text-align: left;
+   left: 12.5%;
    font-family: Monotype Corsiva;
    color: darkgoldenrod;
    font-size: 18pt;
@@ -64,11 +64,11 @@ hr {
    z-index: 1;
    top: 150;
    left: 100;
-	width: 30%;
+   width: 30%;
    height: 15%;
    border-radius: 15px 50px 15px 50px;
    background-color: cornsilk;
-   flex-direction: column;
+   flex-direction: column-reverse;
    justify-content: center;
 }
 
@@ -77,17 +77,18 @@ hr {
    font-size: 13pt;
    font-weight: bold;
    text-shadow: 7px 8px 9px rgba(24, 2, 2, 0.5);
+   text-align: center;
    color: darkgreen;
    display: flex;
    position: absolute;
    z-index: 1;
    top: 320;
    left: 100;
-	width: 30%;
+   width: 30%;
    height: 15%;
    border-radius: 50px 50px 15px 15px;
    background-color: cornsilk;
-   flex-direction: column;
+   flex-direction: column-reverse;
    justify-content: center;
 }
 
@@ -97,12 +98,12 @@ a {
 }
 
 .pic {
-   display: inline-flex;
+   display: inline-block;
    width: 500px;
    height: 450px;
    border-radius: 20px;
-   margin-top: 90;
-   margin-left: 50;
+   margin-top: 90px;
+   margin-left: 50px;
    opacity: 75%;
    z-index: -1;
 }
@@ -110,15 +111,16 @@ a {
 #pic1 {
    background-image: url(../Hip/gr.jpg);
    background-repeat: no-repeat;
+   position: absolute;
 }
 
 .pag {
    display: inline-flex;
-   width: 450px;
+   width: 455px;
    height: 375px;
    border-radius: 40px;
-   top: -63;
-   left: 247;
+   bottom: 20%;
+   left: 59%;
    opacity: 75%;
    z-index: -1;
 }
@@ -126,19 +128,17 @@ a {
 #pag1 {
    background-image: url(../Hip/la.jpg);
    background-repeat: no-repeat;
-   position: relative;
+   position: absolute;
 }
 
 .log1 {
    font-family: Corbel;
    display: flex;
    position: absolute;
-   top: -58;
-   left: 620;
-   width: 50%;
-   height: 15%;
+   top: -31px;
+   left: 60%;
    flex-direction: column;
-   align-items: center;
+   text-align: center;
    justify-content: center;
 }
 
@@ -163,13 +163,11 @@ a {
 }
 
 .ow {
-   display: inline-block;
-   margin: 0px;
    font-family: Ink Free;
    font-size: 30pt;
    font-weight: bold;
-   top: 180;
-   right: 125;
+   top: 180px;
+   right: 125px;
    width: 30%;
    height: 15%;
    border-radius: 15px 15px 30px 30px;
@@ -177,20 +175,18 @@ a {
    background-color: rgba(56, 5, 29, 0.9);
    color: orange;
    display: flex;
-   position: fixed;
+   position: absolute;
+   flex-direction: column-reverse;
    text-align: center;
-   flex-direction: column;
    justify-content: center;
 }
 
 .qpg {
-   display: inline-block;
-   margin: 0px;
    font-family: Ink Free;
    font-size: 18pt;
    font-weight: bold;
-   top: 310;
-   left: 830;
+   top: 310px;
+   right: 125px;
    width: 30%;
    height: 25%;
    border-radius: 30px 30px 15px 15px;
@@ -198,9 +194,8 @@ a {
    background-color: rgba(56, 5, 29, 0.9);
    color: powderblue;
    display: flex;
-   position: fixed;
-   text-align: center;
-   flex-direction: column;
+   position: absolute;
+   flex-direction: column-reverse;
    justify-content: center;
 }
 
@@ -233,10 +228,11 @@ button {
 }
 
 .in {
-   display: flex;
+   display: inline-block;
    position: absolute;
-   top: -10;
-   left: 1120;
+   margin: 0px;
+   top: -8px;
+   left: 83%;
 }
 
 .ol {
@@ -258,6 +254,6 @@ h3 {
 	   width: 100%;
 	   height: 5%;
 	   background-color: black;
-	   align-items: center;
+           align-items: center;
 	   justify-content: center;
 }
