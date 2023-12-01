@@ -54,11 +54,11 @@ hr {
 }
 
 .rpg {
-   font-family: Lucida Calligraphy;
+   font-family: Snap ITC;
    font-size: 27pt;
    font-weight: bold;
-   text-shadow: 7px 8px 9px rgba(0,0,0,0.5);
-   color: maroon;
+   text-shadow: 7px 8px 9px rgba(0,0,0,0.3);
+   color: brown;
    display: flex;
    position: absolute;
    z-index: 1;
@@ -118,13 +118,13 @@ a {
    height: 375px;
    border-radius: 40px;
    top: -63;
-   left: 245;
+   left: 247;
    opacity: 75%;
    z-index: -1;
 }
 
 #pag1 {
-   background-image: url(../Hip/pex.jpg);
+   background-image: url(../Hip/la.jpg);
    background-repeat: no-repeat;
    position: relative;
 }
@@ -169,15 +169,15 @@ a {
    font-size: 30pt;
    font-weight: bold;
    top: 180;
-   left: 830;
+   right: 125;
    width: 30%;
    height: 15%;
-   border-radius: 15px 50px 30px 5px;
+   border-radius: 15px 15px 30px 30px;
    text-shadow: 7px 8px 9px rgba(0,0,0,0.9);
    background-color: rgba(56, 5, 29, 0.9);
    color: orange;
    display: flex;
-   position: absolute;
+   position: fixed;
    text-align: center;
    flex-direction: column;
    justify-content: center;
@@ -193,12 +193,12 @@ a {
    left: 830;
    width: 30%;
    height: 25%;
-   border-radius: 15px 50px 30px 5px;
+   border-radius: 30px 30px 15px 15px;
    text-shadow: 7px 8px 9px rgba(0,0,0,0.9);
    background-color: rgba(56, 5, 29, 0.9);
    color: powderblue;
    display: flex;
-   position: absolute;
+   position: fixed;
    text-align: center;
    flex-direction: column;
    justify-content: center;
