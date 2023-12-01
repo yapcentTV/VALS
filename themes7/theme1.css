@@ -8,41 +8,151 @@ body{
 }
 
 #mytitle{
-	margin: 10px;
-	color: khaki;
+	color: darkred;
 	font-family: Ravie;
-	text-shadow: 9px 9px 9px rgba(0,0,0,0.9);
-	font-size: 50pt;
-	display: flex;
-	position: absolute;
-	top: 236;
-	left: 435;
-  width: 50%;
-	height: 600%;
-	background: rgba(88, 62, 62, 0.7);
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	text-shadow: 9px 9px 9px rgba(0,0,0,0.7);
+	font-size: 25pt;
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 15%;
+        width: 85vw;
+	height: 7vh;
+	background-color: rgba(255,255,255,0.8);
+	flex-direction: row;
+        text-align: center;
 }
 
 .urg{
-	margin: 10px;
+	margin: 0px;
 	text-align: center;
 	font-family: Monotype Corsiva;
-  font-weight: 900;
-	color: peachpuff;
-	font-size: 18pt;
-	display: flex;
-	position: absolute;
-	top: 344;
-	left: 435;
-  width: 50%;
-	height: 300%;
-	background: rgba(0.1, 0.2, 0.3, 0.7);
+        font-weight: 900;
+	color: darkgoldenrod;
+	font-size: 17pt;
+	display: block;
+	position: fixed;
+	top: 48px;
+	left: 15%;
+        width: 85vw;
+	height: 4vh;
+        background-color: rgba(0.1,0.2,0.3,0.6);
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
 }
+
+.alt {
+        display: flex;
+        object-fit: cover;
+	width: 30vh;
+	height: 15vw;
+	border-radius: 20px;
+	top: 130px;
+	left: 300px;
+	z-index: 2;
+ }
+ 
+ #alt1 {
+	background-image: url(../Hop/.png);
+	background-repeat: no-repeat;
+	position: absolute;
+ }
+
+.cover {
+        display: inline-block;
+        object-fit: cover;
+	width: 145vh;
+	height: 35vw;
+	border-radius: 20px;
+	top: 130px;
+	left: 300px;
+        opacity: 75%;
+	z-index: -1;
+ }
+ 
+ #cover1 {
+	background-image: url(../Hip/ph.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+ }
+
+.img {
+        display: inline-block;
+        object-fit: cover;
+	width: 38vh;
+	height: 26vw;
+	border-radius: 20px;
+	top: 170px;
+	left: 330px;
+	z-index: 1;
+ }
+ 
+ #img1 {
+	background-image: url(../Hop/pr.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+ }
+
+ .text {
+  font-family: Impact;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  top: 530px;
+  left: 345px;
+ }
+
+ .pag {
+        display: inline-block;
+        object-fit: fill;
+	width: 38vh;
+	height: 26vw;
+	border-radius: 20px;
+	top: 170px;
+	left: 660px;
+	z-index: 1;
+ }
+ 
+ #pag1 {
+	background-image: url(../Hop/sk.jpg);
+	background-repeat: no-repeat;
+	position: fixed;
+ }
+
+ .text1 {
+  font-family: Impact;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  top: 530px;
+  left: 677px;
+ }
+
+ .how {
+  display: inline-block;
+  object-fit: fill;
+  border-radius: 20px;
+  width: 38vh;
+  height: 26vw;
+  top: 170px;
+  right: 120px;
+  z-index: 1;
+ }
+ 
+ #how1 {
+	background-image: url(../Hop/sw.jpg);
+	background-repeat: no-repeat;
+	position: fixed;
+ }
+
+ .text2 {
+  font-family: Impact;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  top: 530px;
+  left: 950px;
+ }
 
 *{
   margin: 0;
@@ -60,6 +170,7 @@ body{
 
 
 .wrapper .sidebar{
+  z-index: 1;
   width: 250px;
   height: 100%;
   background: darkslategray;
