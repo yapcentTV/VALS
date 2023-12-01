@@ -8,13 +8,28 @@ body{
 }
 
 #mytitle{
-	margin: 5px;
+	margin-top: -10px;
 	color: maroon;
 	font-family: Ravie;
 	text-align: center;
 	text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
 	font-size: 50pt;
 }
+
+.pic {
+	display: inline-block;
+	width: 1065px;
+	height: 570px;
+	top: 100px;
+	left: 280px;
+	z-index: -1;
+ }
+ 
+ #pic1 {
+	background-image: url(../Hip/bl.png);
+	background-repeat: no-repeat;
+	position: absolute;
+ }
 
 p{
 	margin: 10px;
@@ -28,7 +43,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 280;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -44,7 +59,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 490;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -60,7 +75,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 700;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -76,7 +91,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 910;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -92,7 +107,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 1120;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -108,7 +123,7 @@ p{
 	position: absolute;
 	top: 400;
 	left: 280;
-        width: 37%;
+    width: 37%;
 	height: 50%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -124,7 +139,7 @@ p{
 	position: absolute;
 	top: 400;
 	left: 820;
-        width: 37%;
+    width: 37%;
 	height: 50%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
