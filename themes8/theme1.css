@@ -30,18 +30,18 @@ body{
 	text-align: center;
 	font-family: Forte;
 	color: aliceblue;
-  text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+        text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
 	font-size: 25pt;
 	display: flex;
 	position: absolute;
 	top: 150;
-  left: 680;
+        left: 680;
 	justify-content: center;
 }
 
 .pic {
 	display: inline-block;
-   align-items: center;
+        align-items: center;
 	width: 40vw;
 	height: 65vh;
 	border-radius: 20px 20px 20px 20px;
@@ -157,9 +157,9 @@ button{
 .on{
 	display: flex;
 	position: fixed;
-	top: 600;
+	top: 575;
 	left: 460;
-  width: 50%;
+        width: 50%;
 	height: 15%;
 	flex-direction: column;
 	align-items: center;
