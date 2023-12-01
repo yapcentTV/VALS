@@ -23,6 +23,24 @@ p {
    margin: 10px;
 }
 
+.pic {
+	display: inline-block;
+        align-items: center;
+	width: 60vw;
+	height: 60vh;
+	border-radius: 20px 20px 20px 20px;
+	top: 150px;
+	left: 390px;
+	opacity: 75%;
+	z-index: -1;
+ }
+ 
+ #pic1 {
+	background-image: url(../Hip/ds.jpg);
+	background-repeat: no-repeat;
+	position: fixed;
+ }
+
 .log {
    font-family: Ink Free;
    font-weight: 700;
@@ -30,11 +48,8 @@ p {
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 120px;
-   left: 435px;
-   width: 50%;
-   height: 89%;
-   background: rgba(0, 0, 0, 0.5);
+   top: 210px;
+   left: 450px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -47,11 +62,8 @@ p {
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 224px;
-   left: 435px;
-   width: 50%;
-   height: 89%;
-   background: rgba(0, 0, 0, 0.5);
+   top: 310px;
+   left: 450px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -64,11 +76,8 @@ p {
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 328px;
-   left: 435px;
-   width: 50%;
-   height: 89%;
-   background: rgba(0, 0, 0, 0.5);
+   top: 410px;
+   left: 450px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -81,11 +90,8 @@ p {
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 432px;
-   left: 435px;
-   width: 50%;
-   height: 89%;
-   background: rgba(0, 0, 0, 0.5);
+   top: 260px;
+   left: 840px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -98,11 +104,8 @@ p {
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 536px;
-   left: 435px;
-   width: 50%;
-   height: 89%;
-   background: rgba(0, 0, 0, 0.5);
+   top: 360px;
+   left: 840px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
