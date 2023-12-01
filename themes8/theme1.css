@@ -20,7 +20,7 @@ body{
 	margin: 10px;
 	text-align: center;
 	font-family: Monotype Corsiva;
-        font-weight: 900;
+  font-weight: 900;
 	color: darkgoldenrod;
 	font-size: 18pt;
 }
@@ -30,18 +30,32 @@ body{
 	text-align: center;
 	font-family: Forte;
 	color: aliceblue;
-        text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
 	font-size: 25pt;
 	display: flex;
 	position: absolute;
-	top: 140;
-	left: 500;
-        width: 40%;
-	height: 300%;
-	border-radius: 15px;
-	background: rgba(0, 0, 0, 0.3);
+	top: 150;
+  left: 680;
 	justify-content: center;
 }
+
+.pic {
+	display: inline-block;
+   align-items: center;
+	width: 40vw;
+	height: 65vh;
+	border-radius: 20px 20px 20px 20px;
+	top: 150px;
+	left: 520px;
+	opacity: 50%;
+	z-index: -1;
+ }
+ 
+ #pic1 {
+	background-image: url(../Hip/ds.jpg);
+	background-repeat: no-repeat;
+	position: fixed;
+ }
 
 *{
   margin: 0;
@@ -145,7 +159,7 @@ button{
 	position: fixed;
 	top: 600;
 	left: 460;
-        width: 50%;
+  width: 50%;
 	height: 15%;
 	flex-direction: column;
 	align-items: center;
