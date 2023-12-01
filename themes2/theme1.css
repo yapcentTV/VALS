@@ -27,10 +27,10 @@ body {
 	   transform: translate(50%,50%);
 	   width: 50%;
 	   height: 15%;
-           border-radius: 20px 20px 20px 20px;
+     	   border-radius: 20px 20px 20px 20px;
 	   background: rgba(0.1, 0.2, 0.3, 0.8);
 	   flex-direction: column;
-           align-items: center;
+      	   align-items: center;
 	   justify-content: center;
 }
 
@@ -84,13 +84,12 @@ p{
 .abc {
    font-family: Verdana, sans-serif;
    font-size: 15pt;
-   display: flex;
-   position: absolute;
-   top: 418px;
-   left: 640px;
-   flex-direction: column;
+   display: inline-block;
+   position: relative;
+   top: 410px;
+   left: 625px;
+   flex-direction: row;
    text-align: center;
-   justify-content: right;
 }
 
 a {
@@ -126,7 +125,7 @@ button {
 			   padding: 20px;
 			   box-sizing: border-box;
 			   transition: 3s;
-                           text-align: center;
+               		   text-align: center;
 	   }
 	 
 .LoginName[type=text]:focus {
@@ -142,7 +141,7 @@ button {
 			   padding: 20px;
 			   box-sizing: border-box;
 			   transition: 3s;
-                           text-align: center;
+              		   text-align: center;
 }
 
 .LoginPass[type=password]:focus {
