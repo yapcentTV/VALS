@@ -22,12 +22,14 @@ body{
 	height: 560px;
 	top: 100px;
 	left: 284px;
+	opacity: 85%;
 	z-index: -1;
  }
  
  #pic1 {
 	background-image: url(../Hip/bl.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 	position: absolute;
  }
 
@@ -43,7 +45,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 274;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -75,7 +77,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 695;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -91,7 +93,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 905;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
@@ -107,7 +109,7 @@ p{
 	position: absolute;
 	top: 120;
 	left: 1115;
-        width: 15%;
+    width: 15%;
 	height: 40%;
 	background: rgba(0, 0, 0, 0.5);
 	flex-direction: column;
