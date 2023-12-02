@@ -43,6 +43,7 @@ body {
  #pic1 {
 	background-image: url(../Hip/ds.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	position: fixed;
  }
 
