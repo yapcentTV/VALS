@@ -1,10 +1,9 @@
 body{
-	 background-image: url(../Hip/101.jpg);
+	 background-image: url(../Hip/93.jpg);
 	 background-repeat: no-repeat;
-	 background-position: center;
+	 background-position: fill;
 	 background-size: 100%;
-	 background-attachment: fixed;
-         overflow-y: scroll;
+   background-attachment: scroll;	
 }
 
 #mytitle{
@@ -13,14 +12,14 @@ body{
 	text-shadow: 9px 9px 9px rgba(0,0,0,0.5);
 	font-size: 25pt;
 	display: block;
-	position: fixed;
+	position: absolute;
 	top: 0px;
 	left: 15%;
-        width: 85vw;
+  width: 84vw;
 	height: 7vh;
 	background-color: rgba(255,255,255,0.8);
 	flex-direction: row;
-        text-align: center;
+  text-align: center;
 }
 
 .urg{
@@ -31,10 +30,10 @@ body{
 	color: darkgoldenrod;
 	font-size: 17pt;
 	display: block;
-	position: fixed;
+	position: absolute;
 	top: 48px;
 	left: 15%;
-  width: 85vw;
+  width: 84vw;
 	height: 4vh;
   background-color: rgba(0.1,0.2,0.3,0.6);
 	flex-direction: column;
@@ -42,17 +41,21 @@ body{
 }
 
 .alt {
-  font-family: Stencil;
-  color: gold;
-	font-size: 30pt;
-	display: block;
-	position: fixed;
-	bottom: 5%;
-	left: 3%;
-	flex-direction: row;
-  text-align: center;
-  z-index: 1;
- }
+	display: flex;
+	width: 3vw;
+	height: 8vh;
+	border-radius: 20px;
+	margin-top: 66%;
+	left: 95%;
+	z-index: 1;
+}
+ 
+#alt1 {
+	background-image: url(../Hop/xc.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+}
 
 .cover {
   display: inline-block;
@@ -67,88 +70,178 @@ body{
  }
  
  #cover1 {
-	background-image: url(../Hip/ph.jpg);
+	background-image: url(../Hip/.jpg);
+  background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
  }
 
-.img {
-  display: inline-block;
-  object-fit: cover;
-	width: 38vh;
-	height: 26vw;
+ .img {
+	display: inline-block;
+	width: 18vw;
+	height: 46vh;
 	border-radius: 20px;
-	top: 170px;
-	left: 330px;
+	top: 120px;
+	left: 350px;
 	z-index: 1;
- }
+}
  
- #img1 {
+#img1 {
 	background-image: url(../Hop/pr.jpg);
+	background-color: red;
+	background-size: contain;
 	background-repeat: no-repeat;
+	margin-bottom: 30px;
 	position: absolute;
- }
+}
 
- .text {
-  font-family: Impact;
-  display: flex;
-  position: absolute;
-  text-align: center;
-	top: 530px;
-	left: 345px;
- }
+.text {
+	font-family: Impact;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	justify-content: center;
+	margin-top: 32%;
+	left: 26.5%;
+}
 
  .pag {
-  display: inline-block;
-  object-fit: fill;
-	width: 38vh;
-	height: 26vw;
+	display: inline-block;
+	width: 18vw;
+	height: 46vh;
 	border-radius: 20px;
-	top: 170px;
-	left: 660px;
+	top: 120px;
+	left: 677px;
 	z-index: 1;
- }
+}
  
- #pag1 {
+#pag1 {
 	background-image: url(../Hop/sk.jpg);
+	background-color: green;
+	background-size: contain;
 	background-repeat: no-repeat;
-	position: fixed;
- }
+	position: absolute;
+}
 
  .text1 {
   font-family: Impact;
   display: flex;
   position: absolute;
   text-align: center;
-	top: 530px;
-	left: 677px;
+	margin-top: 32%;
+	left: 51%;
  }
 
  .how {
-  display: inline-block;
-  object-fit: fill;
-  border-radius: 20px;
-  width: 38vh;
-	height: 26vw;
-	top: 170px;
-	right: 120px;
+	display: inline-block;
+	border-radius: 20px;
+	width: 18vw;
+	height: 46vh;
+	top: 120px;
+	right: 100px;
 	z-index: 1;
- }
+}
  
- #how1 {
+#how1 {
 	background-image: url(../Hop/sw.jpg);
+	background-color: blue;
+	background-size: contain;
 	background-repeat: no-repeat;
-	position: fixed;
- }
+	position: absolute;
+}
 
  .text2 {
   font-family: Impact;
   display: flex;
   position: absolute;
   text-align: center;
-	top: 530px;
-	left: 950px;
+	margin-top: 32%;
+	left: 71%;
  }
+
+ .rvn {
+	display: block;
+	border-radius: 20px;
+	width: 18vw;
+	height: 46vh;
+	margin-top: 37%;
+	margin-left: 11%;
+	z-index: 1;
+}
+ 
+#rvn1 {
+	background-image: url(../Hop/lt.jpg);
+	background-repeat: no-repeat;
+	background-color: orange;
+	background-size: contain;
+	position: absolute;
+}
+
+.text3 {
+	font-family: Impact;
+	display: flex;
+	position: absolute;
+	text-align: center;
+	justify-content: center;
+	margin-top: 61.5%;
+	left: 24.5%;
+}
+
+.owe {
+	display: block;
+	border-radius: 20px;
+	width: 18vw;
+	height: 46vh;
+	margin-top: 37%;
+	margin-left: 35.5%;
+	z-index: 1;
+}
+ 
+#owe1 {
+	background-image: url(../Hop/gg.jpg);
+	background-size: contain;
+	background-color: violet;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.text4 {
+	font-family: Impact;
+	display: flex;
+	position: absolute;
+	text-align: center;
+	justify-content: center;
+	margin-top: 61.5%;
+	left: 48.5%;
+}
+
+.lol {
+	display: block;
+	border-radius: 20px;
+	width: 18vw;
+	height: 46vh;
+	margin-top: 37%;
+	left: 74%;
+	z-index: 1;
+}
+ 
+#lol1 {
+	background-image: url(../Hop/pd.jpg);
+	background-size: contain;
+	background-color: black;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.text5 {
+	font-family: Impact;
+	display: flex;
+	position: absolute;
+	text-align: center;
+	justify-content: center;
+	margin-top: 61.5%;
+	margin-left: 57.5%;
+}
 
 *{
   margin: 0;
@@ -163,7 +256,6 @@ body{
   display: flex;
   position: relative;
 }
-
 
 .wrapper .sidebar{
   z-index: 1;
