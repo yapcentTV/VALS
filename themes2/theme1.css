@@ -27,10 +27,10 @@ body {
 	   transform: translate(50%,50%);
 	   width: 50%;
 	   height: 15%;
-     	   border-radius: 20px 20px 20px 20px;
+       border-radius: 20px 20px 20px 20px;
 	   background: rgba(0.1, 0.2, 0.3, 0.8);
 	   flex-direction: column;
-      	   align-items: center;
+       align-items: center;
 	   justify-content: center;
 }
 
@@ -57,7 +57,7 @@ p{
 }
 
 .log {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    color: springgreen;
    font-size: 18pt;
    display: flex;
@@ -70,7 +70,7 @@ p{
 }
 
 .log1 {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    color: aqua;
    font-size: 18pt;
    display: flex;
@@ -83,12 +83,12 @@ p{
 }
 
 .abc {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    font-size: 15pt;
    display: inline-block;
-   position: relative;
-   top: 410px;
-   left: 625px;
+   position: absolute;
+   top: 420px;
+   left: 645px;
    flex-direction: row;
    text-align: center;
 }
@@ -126,13 +126,13 @@ button {
 			   padding: 20px;
 			   box-sizing: border-box;
 			   transition: 3s;
-               		   text-align: center;
+               text-align: center;
 	   }
 	 
 .LoginName[type=text]:focus {
 			   border-color: cadetblue;
 			   box-shadow: 0 0 10px 0 cadetblue;
-                           text-align: center;
+               text-align: center;
 }
 
 .LoginPass[type=password] {
@@ -142,7 +142,7 @@ button {
 			   padding: 20px;
 			   box-sizing: border-box;
 			   transition: 3s;
-              		   text-align: center;
+               text-align: center;
 }
 
 .LoginPass[type=password]:focus {
