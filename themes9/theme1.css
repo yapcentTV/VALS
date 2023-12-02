@@ -7,7 +7,7 @@ body{
 }
 
 #mytitle{
-	 top: 30px;
+	 top: 50px;
 	 margin-left: 475;
 	 position: relative;
 	 background-image: url(../Hip/32.png);
@@ -18,9 +18,9 @@ body{
 .pic {
 	display: inline-block;
 	width: 30%;
-	height: 380px;
+	height: 360px;
 	border-radius: 20px 20px 20px 20px;
-	bottom: 50px;
+	margin-top: 20%;
 	left: 580px;
 	opacity: 75%;
 	align-items: center;
@@ -30,7 +30,8 @@ body{
  #pic1 {
 	background-image: url(../Hip/ds.jpg);
 	background-repeat: no-repeat;
-	position: fixed;
+	background-size: cover;
+	position: absolute;
  }
 
  .pag {
@@ -38,7 +39,7 @@ body{
 	width: 50%;
 	height: 90vh;
 	border-radius: 20px 20px 20px 20px;
-	top: 20px;
+	top: 30px;
 	left: 450px;
 	opacity: 50%;
 	align-items: center;
@@ -46,8 +47,9 @@ body{
  }
  
  #pag1 {
-	background-image: url(../Hip/pex.jpg);
+	background-image: url(../Hip/gr.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	position: absolute;
  }
 
