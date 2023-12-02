@@ -18,16 +18,19 @@ body{
 
 .pic {
 	display: inline-block;
+	border-radius: 20px;
 	width: 1065px;
 	height: 570px;
 	top: 100px;
 	left: 280px;
+	opacity: 85%;
 	z-index: -1;
  }
  
  #pic1 {
 	background-image: url(../Hip/bl.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 	position: absolute;
  }
 
