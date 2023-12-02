@@ -21,7 +21,7 @@ body {
 	   transform: translate(50%,50%);
 	   width: 50%;
 	   height: 15%;
-           border-radius: 20px 20px 20px 20px;
+      border-radius: 20px 20px 20px 20px;
 	   background: rgba(0.1, 0.2, 0.3, 0.8);
 	   flex-direction: column;
 	   align-items: center;
@@ -51,7 +51,7 @@ p {
 }
 
 .log {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    color: navajowhite;
    font-size: 18pt;
    display: flex;
@@ -64,9 +64,9 @@ p {
 }
 
 .log1 {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    color: aqua;
-   font-size: 14pt;
+   font-size: 15pt;
    display: flex;
    position: absolute;
    top: 329px;
@@ -77,12 +77,12 @@ p {
 }
 
 .abc {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    font-size: 15pt;
-   display: flex;
+   display: inline-block;
    position: absolute;
    top: 415px;
-   left: 580px;
+   left: 590px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
