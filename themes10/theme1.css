@@ -4,6 +4,7 @@ body{
   background-position: fill;
   background-size: 100%;
   background-attachment: scroll;	
+  overflow-x: hidden; 
 }
 
 #mytitle{
@@ -40,13 +41,30 @@ body{
  justify-content: center;
 }
 
+.cx {
+  display: flex;
+  width: 3vw;
+  height: 8vh;
+  border-radius: 20px;
+  margin-top: 66%;
+  left: 92%;
+  z-index: 1;
+ }
+ 
+ #cx1 {
+  background-image: url(../Hop/cx.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+ }
+
 .alt {
  display: flex;
  width: 3vw;
  height: 8vh;
  border-radius: 20px;
  margin-top: 66%;
- left: 95%;
+ left: 96%;
  z-index: 1;
 }
 
