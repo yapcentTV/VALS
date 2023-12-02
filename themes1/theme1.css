@@ -52,7 +52,7 @@ p{
 }
 
 .log {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    color: navajowhite;
    font-size: 18pt;
    display: flex;
@@ -65,7 +65,7 @@ p{
 }
 
 .log1 {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    color: springgreen;
    font-size: 18pt;
    display: flex;
@@ -78,7 +78,7 @@ p{
 }
 
 .log2 {
-   font-family: Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    color: aqua;
    font-size: 18pt;
    display: flex;
@@ -92,13 +92,6 @@ p{
 
 a {
    color: black;
-}
-
-.abc {
-   margin: 1px;
-   font-family: Bahnschrift SemiBold;
-   color: black;
-   font-size: 14pt;
 }
 
 button {
