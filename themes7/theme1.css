@@ -1,9 +1,8 @@
 body{
-	 background-image: url(../Hip/93.jpg);
-	 background-repeat: no-repeat;
+	background-image: url(../Hip/64.jpg);
 	 background-position: fill;
 	 background-size: 100%;
-         background-attachment: scroll;	
+     background-attachment: scroll;	
 	 overflow-x: hidden; 
 }
 
@@ -16,27 +15,27 @@ body{
 	position: absolute;
 	top: 0px;
 	left: 15%;
-        width: 84vw;
+    width: 84vw;
 	height: 7vh;
 	background-color: rgba(255,255,255,0.8);
 	flex-direction: row;
-        text-align: center;
+    text-align: center;
 }
 
 .urg{
 	margin: 0px;
 	text-align: center;
 	font-family: Monotype Corsiva;
-  font-weight: 900;
+    font-weight: 900;
 	color: darkgoldenrod;
 	font-size: 17pt;
 	display: block;
 	position: absolute;
 	top: 48px;
 	left: 15%;
-  width: 84vw;
+    width: 84vw;
 	height: 4vh;
-  background-color: rgba(0.1,0.2,0.3,0.6);
+    background-color: rgba(0.1,0.2,0.3,0.6);
 	flex-direction: column;
 	justify-content: center;
 }
@@ -46,8 +45,8 @@ body{
 	width: 3vw;
 	height: 8vh;
 	border-radius: 20px;
-	margin-top: 66%;
-	left: 96%;
+	margin-top: 84%;
+	left: 58%;
 	z-index: 1;
 }
  
@@ -58,39 +57,181 @@ body{
 	position: absolute;
 }
 
-.cover {
-  display: inline-block;
-  object-fit: cover;
-	width: 145vh;
-	height: 35vw;
+.sc {
+	display: flex;
+	width: 100vw;
+	height: 20vh;
 	border-radius: 20px;
-	top: 130px;
-	left: 300px;
-  opacity: 75%;
-	z-index: -1;
- }
- 
- #cover1 {
-	background-image: url(../Hip/.jpg);
-  background-size: contain;
+	margin-top: 3.5%;
+	margin-left: 33.5%;
+	z-index: 1;
+}
+	 
+#sc1 {
+	background-image: url(../Hop/st.png);
+	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
+}
+
+.cover {
+    display: flex;
+    width: 73vw;
+    height: 50vh;
+    border-radius: 20px;
+    top: 300px;
+    left: 300px;
+    opacity: 85%;
+    z-index: -1;
  }
+   
+#cover1 {
+	background-image: url(../Hip/ds.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.uncover {
+	display: flex;
+	width: 73vw;
+	height: 50vh;
+	border-radius: 20px;
+	top: 790px;
+	left: 300px;
+	opacity: 85%;
+	z-index: -1;
+}
+	 
+#uncover1 {
+	background-image: url(../Hip/ds.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+ .ab {
+	display: flex;
+	width: 18vw;
+	height: 15vh;
+	border-radius: 20px;
+	top: 490px;
+	left: 26%;
+	opacity: 80%;
+	z-index: -1;
+}
+   
+ #ab1 {
+	background-image: url(../Hip/ugh.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+   .cd {
+	display: flex;
+	width: 18vw;
+	height: 15vh;
+	border-radius: 20px;
+	top: 490px;
+	left: 680px;
+	opacity: 80%;
+	z-index: -1;
+}
+   
+ #cd1 {
+	background-image: url(../Hip/ugh.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.ef {
+	display: flex;
+	width: 18vw;
+	height: 15vh;
+	border-radius: 20px;
+	top: 490px;
+	left: 74%;
+	opacity: 80%;
+	z-index: -1;
+}
+   
+ #ef1 {
+	background-image: url(../Hip/ugh.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+   }
+  
+.gh {
+	display: flex;
+	width: 18vw;
+	height: 15vh;
+	border-radius: 20px;
+	margin-top: 71%;
+	left: 74%;
+	opacity: 80%;
+	z-index: -1;
+}
+   
+ #gh1 {
+	background-image: url(../Hip/ugh.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.ij {
+	display: flex;
+	width: 18vw;
+	height: 15vh;
+	border-radius: 20px;
+	margin-top: 71%;
+	left: 680px;
+	opacity: 80%;
+	z-index: -1;
+}
+   
+ #ij1 {
+	background-image: url(../Hip/ugh.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.kl {
+	display: flex;
+	width: 18vw;
+	height: 15vh;
+	border-radius: 20px;
+	margin-top: 71%;
+	left: 26%;
+	opacity: 80%;
+	z-index: -1;
+}
+   
+ #kl1 {
+	background-image: url(../Hip/ugh.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
 
  .img {
 	display: inline-block;
 	width: 18vw;
 	height: 46vh;
 	border-radius: 20px;
-	top: 120px;
+	top: 210px;
 	left: 350px;
 	z-index: 1;
 }
  
 #img1 {
 	background-image: url(../Hop/pr.jpg);
-	background-color: red;
 	background-size: contain;
+	background-color: red;
 	background-repeat: no-repeat;
 	margin-bottom: 30px;
 	position: absolute;
@@ -98,12 +239,13 @@ body{
 
 .text {
 	font-family: Impact;
+	color: black;
 	display: inline-block;
 	position: absolute;
 	text-align: center;
 	justify-content: center;
-	margin-top: 32%;
-	left: 26.5%;
+	margin-top: 38.5%;
+	left: 30.5%;
 }
 
  .pag {
@@ -111,15 +253,15 @@ body{
 	width: 18vw;
 	height: 46vh;
 	border-radius: 20px;
-	top: 120px;
-	left: 677px;
+	top: 210px;
+	left: 50.5%;
 	z-index: 1;
 }
  
 #pag1 {
 	background-image: url(../Hop/sk.jpg);
-	background-color: green;
 	background-size: contain;
+	background-color: blue;
 	background-repeat: no-repeat;
 	position: absolute;
 }
@@ -129,8 +271,8 @@ body{
   display: flex;
   position: absolute;
   text-align: center;
-  margin-top: 32%;
-  left: 51%;
+  margin-top: 38.5%;
+  left: 54%;
  }
 
  .how {
@@ -138,15 +280,15 @@ body{
 	border-radius: 20px;
 	width: 18vw;
 	height: 46vh;
-	top: 120px;
-	right: 100px;
+	top: 210px;
+	left: 74%;
 	z-index: 1;
 }
  
 #how1 {
 	background-image: url(../Hop/sw.jpg);
-	background-color: blue;
 	background-size: contain;
+	background-color: green;
 	background-repeat: no-repeat;
 	position: absolute;
 }
@@ -156,8 +298,8 @@ body{
   display: flex;
   position: absolute;
   text-align: center;
-  margin-top: 32%;
-  left: 71%;
+  margin-top: 38.5%;
+  left: 77%;
  }
 
  .rvn {
@@ -165,15 +307,15 @@ body{
 	border-radius: 20px;
 	width: 18vw;
 	height: 46vh;
-	margin-top: 37%;
-	margin-left: 11%;
+	margin-top: 50%;
+	left: 350px;
 	z-index: 1;
 }
  
 #rvn1 {
 	background-image: url(../Hop/lt.jpg);
 	background-repeat: no-repeat;
-	background-color: orange;
+	background-color: brown;
 	background-size: contain;
 	position: absolute;
 }
@@ -184,8 +326,8 @@ body{
 	position: absolute;
 	text-align: center;
 	justify-content: center;
-	margin-top: 61.5%;
-	left: 24.5%;
+	margin-top: 74.5%;
+	left: 28%;
 }
 
 .owe {
@@ -193,8 +335,8 @@ body{
 	border-radius: 20px;
 	width: 18vw;
 	height: 46vh;
-	margin-top: 37%;
-	margin-left: 35.5%;
+	margin-top: 50%;
+	left: 50.5%;
 	z-index: 1;
 }
  
@@ -212,8 +354,8 @@ body{
 	position: absolute;
 	text-align: center;
 	justify-content: center;
-	margin-top: 61.5%;
-	left: 48.5%;
+	margin-top: 74.5%;
+	left: 54%;
 }
 
 .lol {
@@ -221,7 +363,7 @@ body{
 	border-radius: 20px;
 	width: 18vw;
 	height: 46vh;
-	margin-top: 37%;
+	margin-top: 50%;
 	left: 74%;
 	z-index: 1;
 }
@@ -240,8 +382,8 @@ body{
 	position: absolute;
 	text-align: center;
 	justify-content: center;
-	margin-top: 61.5%;
-	margin-left: 57.5%;
+	margin-top: 74.5%;
+	margin-left: 62.5%;
 }
 
 *{
