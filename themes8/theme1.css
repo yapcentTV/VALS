@@ -13,30 +13,30 @@ body{
 	text-shadow: 9px 9px 9px rgba(0,0,0,0.5);
 	font-size: 25pt;
 	display: block;
-	position: fixed;
+	position: absolute;
 	top: 0px;
 	left: 15%;
-        width: 85vw;
+    width: 84vw;
 	height: 7vh;
 	background-color: rgba(255,255,255,0.8);
 	flex-direction: row;
-        text-align: center;
+    text-align: center;
 }
 
 .urg{
 	margin: 0px;
 	text-align: center;
 	font-family: Monotype Corsiva;
-        font-weight: bold;
+    font-weight: 900;
 	color: darkgoldenrod;
 	font-size: 17pt;
 	display: block;
-	position: fixed;
+	position: absolute;
 	top: 48px;
 	left: 15%;
-        width: 85vw;
+    width: 84vw;
 	height: 4vh;
-        background-color: rgba(0.1,0.2,0.3,0.6);
+    background-color: rgba(0.1,0.2,0.3,0.6);
 	flex-direction: column;
 	justify-content: center;
 }
@@ -46,22 +46,22 @@ body{
 	text-align: center;
 	font-family: Forte;
 	color: aliceblue;
-        text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
 	font-size: 25pt;
 	display: flex;
 	position: absolute;
-	top: 150;
-        left: 680;
+	top: 120;
+    left: 680;
 	justify-content: center;
 }
 
 .pic {
 	display: inline-block;
-        align-items: center;
+    align-items: center;
 	width: 40vw;
 	height: 65vh;
 	border-radius: 20px 20px 20px 20px;
-	top: 150px;
+	top: 120px;
 	left: 520px;
 	opacity: 65%;
 	z-index: -1;
@@ -177,7 +177,7 @@ button{
 	position: fixed;
 	top: 575;
 	left: 460;
-        width: 50%;
+    width: 50%;
 	height: 15%;
 	flex-direction: column;
 	align-items: center;
