@@ -8,7 +8,7 @@ body {
 
 #UniInput {
 	   height: 8vh;
-	   width: 20vw;
+	   width: 18vw;
 }
 
 #mytitle {
@@ -18,7 +18,7 @@ body {
 	   text-shadow: 9px 8px 9px rgba(0,0,0,0.9);
 	   display: flex;
 	   position: absolute;
-	   top: 30px;
+	   top: 5%;
 	   left: 340px;
 	   width: 50%;
 	   height: 15%;
@@ -32,9 +32,9 @@ body {
 .pic {
 	display: inline-block;
 	width: 50%;
-	height: 420px;
+	height: 55%;
 	border-radius: 20px 20px 20px 20px;
-	top: 190px;
+	top: 30%;
 	left: 340px;
 	opacity: 75%;
 	z-index: -1;
@@ -57,8 +57,8 @@ p{
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 198px;
-   left: 540px;
+   top: 35%;
+   left: 30%;
    text-align: center;
    flex-direction: column;
    justify-items: center;
@@ -70,8 +70,8 @@ p{
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 300px;
-   left: 540px;
+   top: 50%;
+   left: 30%;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -79,16 +79,29 @@ p{
 
 .log2 {
    font-family: 'Poppins', sans-serif;
-   color: aqua;
+   color: yellow;
    font-size: 18pt;
    display: flex;
    position: absolute;
-   top: 402px;
-   left: 540px;
+   top: 35%;
+   left: 50%;
    flex-direction: column;
    align-items: center;
    justify-content: center;
 }
+
+.log3 {
+	font-family: 'Poppins', sans-serif;
+	color: aqua;
+	font-size: 18pt;
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+ }
 
 a {
    color: black;
@@ -109,8 +122,8 @@ button {
 .on {
    display: flex;
    position: absolute;
-   top: 520px;
-   left: 620px;
+   top: 70%;
+   left: 45%;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -143,6 +156,21 @@ button {
 .AccountCreateName[type=text]:focus {
 				   border-color: cadetblue;
 				   box-shadow: 0 0 10px 0 cadetblue;
+}
+
+.AccountCreateEmail[type=text] {
+	border: 10px solid #aaa;
+	border-radius: 4px;
+	outline: none;
+	padding: 20px;
+	box-sizing: border-box;
+	transition:3s;
+	text-align: center;
+}
+
+.AccountCreateEmail[type=text]:focus {
+	border-color: rebeccapurple;
+	box-shadow: 0 0 10px 0 rebeccapurple;
 }
 
 .AccountCreatePass[type=password] {
